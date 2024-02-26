@@ -77,10 +77,10 @@
     </main>
     @if (!isset($excludeFooter))
         <div class="flex justify-center w-full h-[1px] mt-36">
-            <div class="w-1/2 h-full bg-gray-300 dark:bg-gray-500"></div>
+            <div class="w-full md:w-3/4 h-full bg-gray-300 dark:bg-gray-500"></div>
         </div>
-        <footer class="w-full flex items-center justify-start font-bold h-36 opacity-90 md:justify-center">
-            <p class="ml-2">Copyright &copy; 2022, All Rights reserved</p>
+        <footer class="w-full flex items-center justify-start font-bold h-36 opacity-90 justify-center">
+            <p>Copyright &copy; 2022, All Rights reserved</p>
         </footer>
     @endif
     <x-flash-message/>

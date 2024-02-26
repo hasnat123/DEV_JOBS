@@ -9,7 +9,7 @@
             <form method="POST" action="/email/verification-notification">
                 @csrf
                 <div class="mb-6">
-                    <button type="submit" class="bg-laravel text-white text-xl rounded py-3 px-6 mt-10 hover:bg-black">
+                    <button type="submit" class="bg-primary text-white text-xl rounded py-3 px-6 mt-10 hover:bg-font-color-primary dark:hover:bg-font-color-dark dark:hover:text-font-color-primary">
                         Resend Verification Email
                     </button>
                 </div>
