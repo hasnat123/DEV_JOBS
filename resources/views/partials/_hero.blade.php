@@ -26,7 +26,9 @@
         @endguest
     </div>
 
-    <form class="w-4/5 max-w-[795px]" action="/">
+    @include('partials._search');
+
+    {{-- <form class="w-4/5 max-w-[795px]" action="/">
         <div class="relative flex flex-col md:flex-row items-center px-2 rounded-lg overflow-hidden md:bg-white md:border-2 border-font-color-dark dark:border-gray-500 m-4 rounded-[10px]">
             <div class="relative flex items-center w-full bg-white md:bg-none rounded-t-lg overflow-hidden md:border-none border-t-2 border-l-2 border-r-2 border-font-color-dark dark:border-gray-500">
                 <div class="ml-4 md:ml-2 mr-4">
@@ -68,5 +70,5 @@
                 Find Jobs
             </button>
         </div>
-    </form>
+    </form> --}}
 </section>
